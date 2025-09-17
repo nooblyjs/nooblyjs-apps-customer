@@ -11,7 +11,7 @@
     "dev:web": "nodemon --watch src app.js",
     "kill": "  kill -9 $(lsof -t -i:3003)"
   },
-    "dependencies": {
+  "dependencies": {
     "@anthropic-ai/claude-code": "^1.0.81",
     "@google/gemini-cli": "^0.2.1",
     "bcryptjs": "^3.0.2",
