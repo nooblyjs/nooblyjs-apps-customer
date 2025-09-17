@@ -69,7 +69,7 @@ const marketing = require('./src/marketing/index');
 marketing({express: app},eventEmitter,serviceRegistry);
 
 const support = require('./src/support/index');
-warehouse({express: app},eventEmitter,serviceRegistry);
+support({express: app},eventEmitter,serviceRegistry);
 
 // Authentication routes
 const authRoutes = require('./src/auth/routes');
